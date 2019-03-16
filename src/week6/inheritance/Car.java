@@ -8,12 +8,24 @@ public class Car extends Vehicle {
         super(maxSpeed);
     }
 
-    public void printValues(){
-        System.out.println(super.name);
-        System.out.println(this.name);
+    @Override // Override keyword is optional here, but it is nice to have for better readability
+    public String vehicleType() {
+        return "small vehicle";
     }
 
-    public String getNameFromVehicle(){
+    // @Override keyword cannot be used here
+    public String vehicleType2() {
+        return "";
+    }
+
+    public void printValues() {
+        System.out.println(super.name);
+        System.out.println(this.name);
+
+        System.out.println(vehicleType());
+    }
+
+    public String getNameFromVehicle() {
         return super.name;
     }
 

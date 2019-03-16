@@ -10,6 +10,10 @@ public class Vehicle { // extends Object is here as default
         this.maxSpeed = maxSpeed;
     }
 
+    public String vehicleType() {
+        return "big vehicle";
+    }
+
     public int getMaxSpeed() {
         return maxSpeed;
     }
