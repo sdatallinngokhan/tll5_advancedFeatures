@@ -11,7 +11,7 @@ public class AbstractTest {
 
         // POLYMORPHISM POWER
         if (car instanceof Car) {
-            car = new Train();
+            car = new Train(); // object constructor is changed during runtime
             car.move();
         }
     }

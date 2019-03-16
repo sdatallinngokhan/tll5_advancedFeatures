@@ -1,6 +1,6 @@
 package week6.oop.inheritance;
 
-public class Car extends Vehicle {
+public class Car extends Vehicle { // only extending 1 class is allowed
 
     public String name = "car_name";
 
