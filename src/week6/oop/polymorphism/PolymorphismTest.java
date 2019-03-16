@@ -1,4 +1,4 @@
-package week6.polymorphism;
+package week6.oop.polymorphism;
 
 public class PolymorphismTest {
 

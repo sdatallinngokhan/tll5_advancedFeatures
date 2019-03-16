@@ -1,4 +1,4 @@
-package week6.encapsulation;
+package week6.oop.encapsulation;
 
 public class EncapsulationTest {
 

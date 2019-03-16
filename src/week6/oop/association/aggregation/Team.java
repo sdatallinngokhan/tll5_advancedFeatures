@@ -1,4 +1,4 @@
-package week6.association.aggregation;
+package week6.oop.association.aggregation;
 
 import java.util.List;
 

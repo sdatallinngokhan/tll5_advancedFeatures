@@ -1,4 +1,4 @@
-package week6.inheritance;
+package week6.oop.inheritance;
 
 public class Car extends Vehicle {
 

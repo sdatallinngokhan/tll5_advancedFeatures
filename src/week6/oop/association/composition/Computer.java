@@ -1,4 +1,4 @@
-package week6.association.composition;
+package week6.oop.association.composition;
 
 public class Computer {
 
