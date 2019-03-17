@@ -1,4 +1,4 @@
-package week6.generics;
+package week6.generics.basics;
 
 public class GenericBoxTest {
 

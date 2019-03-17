@@ -1,4 +1,4 @@
-package week6.generics;
+package week6.generics.basics;
 
 public class NormalBoxTest {
 
@@ -7,5 +7,7 @@ public class NormalBoxTest {
         NormalBox normalBox = new NormalBox(car);
 
         Car carFromBox = (Car) normalBox.getItem(); // I could reach the Car object by casting
+
+        Airplane airplaneFromBox = (Airplane) normalBox.getItem(); // this is an example of unsafe casting
     }
 }
